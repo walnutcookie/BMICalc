@@ -1,6 +1,6 @@
 ﻿namespace Assignment3
 {
-    partial class Form1
+    partial class MainForm1
     {
         /// <summary>
         /// Required designer variable.
@@ -36,10 +36,10 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.groupBoxResults = new System.Windows.Forms.GroupBox();
+            this.labelWeightCategoryOoutput = new System.Windows.Forms.Label();
             this.labelBMIResultOutput = new System.Windows.Forms.Label();
             this.labelWeightCategory = new System.Windows.Forms.Label();
             this.labelBMI = new System.Windows.Forms.Label();
-            this.labelWeightCategoryOoutput = new System.Windows.Forms.Label();
             this.groupBoxResults.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,6 +114,14 @@
             this.groupBoxResults.TabStop = false;
             this.groupBoxResults.Text = "Results";
             // 
+            // labelWeightCategoryOoutput
+            // 
+            this.labelWeightCategoryOoutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelWeightCategoryOoutput.Location = new System.Drawing.Point(156, 45);
+            this.labelWeightCategoryOoutput.Name = "labelWeightCategoryOoutput";
+            this.labelWeightCategoryOoutput.Size = new System.Drawing.Size(81, 17);
+            this.labelWeightCategoryOoutput.TabIndex = 3;
+            // 
             // labelBMIResultOutput
             // 
             this.labelBMIResultOutput.BackColor = System.Drawing.SystemColors.Control;
@@ -141,15 +149,7 @@
             this.labelBMI.TabIndex = 0;
             this.labelBMI.Text = "BMI";
             // 
-            // labelWeightCategoryOoutput
-            // 
-            this.labelWeightCategoryOoutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelWeightCategoryOoutput.Location = new System.Drawing.Point(156, 45);
-            this.labelWeightCategoryOoutput.Name = "labelWeightCategoryOoutput";
-            this.labelWeightCategoryOoutput.Size = new System.Drawing.Size(81, 17);
-            this.labelWeightCategoryOoutput.TabIndex = 3;
-            // 
-            // Form1
+            // MainForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -162,8 +162,8 @@
             this.Controls.Add(this.labelHeight);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.labelName);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainForm1";
+            this.Text = "BMI calculator";
             this.groupBoxResults.ResumeLayout(false);
             this.groupBoxResults.PerformLayout();
             this.ResumeLayout(false);

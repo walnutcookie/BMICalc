@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace Assignment3
 {
-    public partial class Form1 : Form
+    // declares and creates an instance of BMICalculator
+    public partial class MainForm1 : Form
     {
-        public Form1()
+        public MainForm1()
         {
             InitializeComponent();
         }
